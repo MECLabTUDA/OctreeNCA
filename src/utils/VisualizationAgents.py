@@ -1,0 +1,8 @@
+from src.utils.AgentCreatorVis import VisualizationAgentCreator
+from src.agents.Agent_NCA import Agent_NCA
+from src.agents.Agent_Growing import Agent_Growing
+from src.agents.Agent_Med_NCA import Agent_Med_NCA
+
+Agent_NCA_Vis = VisualizationAgentCreator.create_visualization_agent(Agent_NCA)
+Agent_Growing_Vis = VisualizationAgentCreator.create_visualization_agent(Agent_Growing)
+Agent_MedNCA_Vis = VisualizationAgentCreator.create_visualization_agent(Agent_Med_NCA)
